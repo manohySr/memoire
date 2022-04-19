@@ -1,8 +1,8 @@
 import React from 'react';
 import {BrowserRouter as Routers, Routes, Route, Link} from "react-router-dom";
-import Home from '.components/Home';
-import About from '.components/About';
-import Profile from '.components/Profile';
+import Home from './components/Home';
+import About from './components/About';
+import Profile from './components/Profile';
 
 
 const App = () => {
@@ -10,9 +10,9 @@ const App = () => {
         <>
         <Routers>
             <nav>
-                <link to="/">Home</link>
-                <link to="/about">About</link>
-                <link to="/profile">Profile</link>
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/profile">Profile</Link>
             </nav>
             <Routes>
                 <Route path='/' element={<Home />}></Route>
