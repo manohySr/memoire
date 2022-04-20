@@ -1,12 +1,13 @@
 import React from 'react';
-import {Grid, Typography, Container} from '@mui/material'
+import {Grid, Typography, Container, AppBar} from '@mui/material'
 import { Link } from 'react-router-dom';
 import "./style.css";
 
 const Navbar = () => {
     return (
         <>
-            <Grid container className='navigation' style={{ width : "100%" }}>
+            <AppBar className="navigation">
+            <Grid container style={{ width : "100%" }}>
                 <Grid item md={8}>
                     <Container><Typography variant="h4"><span>PROTAS</span></Typography></Container>
                 </Grid>
@@ -18,6 +19,7 @@ const Navbar = () => {
                     </Grid>
                 </Grid>
             </Grid>
+            </AppBar>
             
         </>
     );
