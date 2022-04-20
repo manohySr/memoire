@@ -3,17 +3,19 @@ import {BrowserRouter as Routers, Routes, Route, Link} from "react-router-dom";
 import Home from './components/Home';
 import About from './components/About';
 import Profile from './components/Profile';
+import Navbar from './components/Navbar';
 
 
 const App = () => {
     return (
         <>
         <Routers>
-            <nav>
+            {/* <nav>
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/profile">Profile</Link>
-            </nav>
+            </nav> */}
+            <Navbar />
             <Routes>
                 <Route path='/' element={<Home />}></Route>
                 <Route path='/about' element={<About />}></Route>
