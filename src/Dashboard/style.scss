@@ -1,0 +1,83 @@
+*{
+    font-family: sans-serif;
+}
+.container{
+    margin-top: 2.5%;
+    background-color: aliceblue;
+    width: 80px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column!important;
+    justify-content: center;
+    text-align: center!important;
+    align-items: start!important;
+    .item{
+        margin: 5px 8px;
+        border: 2px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .item:hover{
+        color: white;
+        background-color: black;
+    }
+    .iconbutton{
+        font-size: 50px;
+    }
+}
+
+
+
+
+.containerUpload{
+    margin-top: 20vh!important;
+    width: 300px;
+    height: 50vh;
+    background-color: aliceblue;
+    text-align: center;
+    .button{
+        margin: 5% 10%;
+        padding: 15px 0;
+        align-self: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        font-size: 30px;
+        font-weight: bolder;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .button:hover{
+        color: white;
+        background-color: black;
+    }
+}
+
+
+
+.containerDownload{
+    margin-top: 20vh!important;
+    width: 300px;
+    height: 50vh;
+    background-color: aliceblue;
+    text-align: center;
+    .image{
+        width: 300px;
+        height: 250px;
+    }
+    .button{
+        margin: 5% 10%;
+        padding: 15px 0;
+        align-self: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        font-size: 30px;
+        font-weight: bolder;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .button:hover{
+        color: white;
+        background-color: black;
+    }
+}
